@@ -13,9 +13,9 @@ User should provide following arguments to main(argc, argv[]) executing the file
 - Timezone of user for correct calculation of RTCP-packet's timestamps, default UTC+3.
 
 References:
--RFC 3550 – RTP: A Transport Protocol for Real-Time Applications:https://tools.ietf.org/html/rfc3550. 
--RFC 6184 – RTP Payload Format for H.264 Video:https://tools.ietf.org/html/rfc6184. 
--RFC 4566 – SDP: Session Description Protocol: https://tools.ietf.org/html/rfc4566.
+- RFC 3550 – RTP: A Transport Protocol for Real-Time Applications:https://tools.ietf.org/html/rfc3550. 
+- RFC 6184 – RTP Payload Format for H.264 Video:https://tools.ietf.org/html/rfc6184. 
+- RFC 4566 – SDP: Session Description Protocol: https://tools.ietf.org/html/rfc4566.
 - ITU-T H.264: https://www.itu.int/rec/T-REC-H.264-201704-I/en.
 
 Application was created as a course work for the MSc course "Operation Systems", RTU MIREA.
