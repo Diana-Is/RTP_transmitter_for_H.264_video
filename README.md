@@ -1,5 +1,5 @@
 # RTP transmitter for H.264 video
-Console application for transmitting H.264 using RTP and RCTP protocols written in C.
+Console application for transmitting H.264 video using RTP and RCTP protocols written in C.
 
 User should provide following arguments to main(argc, argv[]) executing the file "app" (created with Makefile and gcc) in console:
 - name of file intended for transmition, optionally including path to the file in the computer file system. 
@@ -17,5 +17,7 @@ References:
 - RFC 6184 – RTP Payload Format for H.264 Video:https://tools.ietf.org/html/rfc6184. 
 - RFC 4566 – SDP: Session Description Protocol: https://tools.ietf.org/html/rfc4566.
 - ITU-T H.264: https://www.itu.int/rec/T-REC-H.264-201704-I/en.
+
+Stream transmitted by the application can be received and played, for example, by VLC media player.
 
 Application was created as a course work for the MSc course "Operation Systems", RTU MIREA.
