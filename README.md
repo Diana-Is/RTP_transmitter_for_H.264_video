@@ -2,15 +2,15 @@
 Console application for transmitting H.264 using RTP and RCTP protocols written in C.
 
 User should provide following arguments to main(argc, argv[]) executing the file "app" (created with Makefile and gcc) in console:
- • name of file intended for transmition, optionally including path to the file in the computer file system.
-• IP-address of the computer, which will be receiving the stream, default "localhost".
-• port number of the computer, which will be receiving the stream, default 51372.
-• size of RTP-packet in bytes, default 1400.
-• numerator for frames-per-second calculation, default 1200.
-• denominator for frames-per-second calculation, default 50.
-• “trigger”, switching program regimes: only RTP-packets ("def")/ RTP+RCTP-packets ("rtcp_on").
-• IP-address of NTP-server for quiering timestamp for RTCP-packets, default 37.247.53.178.
-• Timezone of user for correct calculation of RTCP-packet's timestamps, default UTC+3.
+- name of file intended for transmition, optionally including path to the file in the computer file system.
+-IP-address of the computer, which will be receiving the stream, default "localhost".
+- port number of the computer, which will be receiving the stream, default 51372.
+- size of RTP-packet in bytes, default 1400.
+- numerator for frames-per-second calculation, default 1200.
+- denominator for frames-per-second calculation, default 50.
+- “trigger”, switching program regimes: only RTP-packets ("def")/ RTP+RCTP-packets ("rtcp_on").
+- IP-address of NTP-server for quiering timestamp for RTCP-packets, default 37.247.53.178.
+- Timezone of user for correct calculation of RTCP-packet's timestamps, default UTC+3.
 
 References:
 RFC 3550 – RTP: A Transport Protocol for Real-Time Applications:https://tools.ietf.org/html/rfc3550, свободный.
